@@ -29,9 +29,13 @@ public class Movie {
 
     public static List<Movie> createRandomMovies() {
         List<Movie> listOfMovies = new ArrayList<>();
+        listOfMovies.add(new Movie(90));
+        listOfMovies.add(new Movie(85));
+        listOfMovies.add(new Movie(75));
         listOfMovies.add(new Movie(60));
-        listOfMovies.add(new Movie(80));
-        listOfMovies.add(new Movie(30));
+        listOfMovies.add(new Movie(120));
+        listOfMovies.add(new Movie(150));
+        listOfMovies.add(new Movie(125));
         return listOfMovies;
     }
 }
